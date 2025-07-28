@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.list li {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.Divfirst .list li {
+  position: relative;
+  right: 30%;
+  margin: 5px;
+}

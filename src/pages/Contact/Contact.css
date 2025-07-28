@@ -1,0 +1,39 @@
+.position1 i {
+    color: #09054b;
+    position: absolute;
+     top: 24%;
+    left: 50%;
+}
+.position1::after{
+    content: "";
+    position: absolute;
+     top: 25%;
+    left: 40%;
+    width: 9%;
+    height:0;
+    border: 2px solid #09054b;
+}
+.position1::before{
+    content: "";
+    position: absolute;
+    top:25%;
+     right: 40%;
+    width:8%;
+    height:0;
+    border: 2px solid #09054b;
+} 
+.Name{
+    border-radius: 10px;
+      border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.contact h1 {
+    color: rgb(18, 18, 152);
+}
+.Btn{
+    background-color: rgb(18, 18, 152);
+    color: white;
+    border-radius: 10px;
+    padding: 8px ;
+}

@@ -1,0 +1,32 @@
+/* .img img {
+  border-radius: 10px;
+  border: 1px solid black;
+} */
+.portfoli h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(18, 18, 152);
+}
+.position1 i {
+  position: absolute;
+  top:70%;
+  left: 50%;
+}
+.position1::after {
+  content: "";
+  position: absolute;
+  top:50%;
+  left: 40%;
+  width: 9%;
+  height: 0;
+  border: 2px solid #09054b;
+}
+.position1::before {
+  content: "";
+  position: absolute;
+  top:50%;
+  right: 40%;
+  width: 8%;
+  height: 0;
+  border: 2px solid #09054b;
+}

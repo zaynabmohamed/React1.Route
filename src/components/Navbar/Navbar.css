@@ -1,0 +1,16 @@
+ul{
+ list-style: none;
+ display: flex;
+ justify-content:right;
+}
+ul li:hover{
+        border-radius: 10px;
+    border: 1px solid black;
+}
+ul li a{
+    padding: 30px;
+    font-size: large;
+    color: black;
+   transition: 0.5s;
+}
+
