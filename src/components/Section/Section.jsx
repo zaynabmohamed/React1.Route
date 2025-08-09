@@ -1,4 +1,3 @@
-import Footer from "../Footer/footer";
 import "./Section.css";
 export default function Section() {
   return (
